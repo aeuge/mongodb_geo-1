@@ -68,7 +68,7 @@ def get_response(environ, start_response, app_config, lat, lon, distance):
                         data=list(collection.find({
                             # TODO:  planner returned error :: caused by ::
                             #  unable to find index for $geoNear query, full error:
-                            #  {'ok': 0.0, 'errmsg': 'error processing query: ns=otus.meteoritesTree: GEONEAR
+                            #  {'ok': 0.0, 'errmsg': 'error processing query: ns=geo.meteoritesTree: GEONEAR
                             #  field=location maxdist=500 isNearSphere=0\nSort: {}\nProj: { _id: 0 }\n
                             #  planner returned error :: caused by :: unable to find index for
                             #  $geoNear query', 'code': 291, 'codeName': 'NoQueryExecutionPlans'}

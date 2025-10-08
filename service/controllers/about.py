@@ -17,7 +17,7 @@ def get_response(environ, start_response, app_config):
             f"MONGODB_DB_NAME = {MONGODB_DB_NAME}<br/>"
             f"MONGODB_DB_COLLECTIONS = {MONGODB_DB_COLLECTIONS}<br/>"
             f"<br/>"
-            f"ILYA special for <a target='_blank' href='https://otus.ru/'>OTUS</a> NoSQL Course"
+            f"ILYA special for <a target='_blank' href='https://aristov.tech/'>aristov.tech</a>"
             f"</tt>"
         )
         , 'utf-8')]
